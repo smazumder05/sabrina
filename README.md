@@ -13,6 +13,7 @@ JSON Serialization is provided which uses [JsonBeans](http://code.google.com/p/j
 Sabrina also provides a bounded queueing model for handling a high volume of requests, this is based on the [Disruptor](https://github.com/LMAX-Exchange/disruptor)  
 
 Sabrina is ideal for any client/server application. It is very efficient and is meant for high performance servers.
+It is being used for handling requests from mobile application running on various mobile devices.
 
 
 A pure Scala version is also in the works.
