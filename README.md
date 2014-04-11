@@ -3,7 +3,7 @@ Sabrina
 
 A client/server library that supports multiple protocols and provides a simple abstraction for efficiently communicating over TCP or UDP
 
-###Overview
+### 1. Introduction
 
 
 Sabrina is a Java library that provides a clean and simple API for efficient TCP and UDP client/server network communication using NIO. Sabrina  uses the Apache Avro serialization library to automatically and efficiently transfer object across the network. However any other serialization libraries can be plugged in. 
@@ -24,7 +24,7 @@ Sabrina is ideal for any client/server application. It is very efficient and is 
 
 A pure Scala version is also in the works.
 
-[Running a server](#running-a-server)
+### 2. Creating a server
 
 This code starts a server on TCP port xxxxx and UDP port yyyyy:
 
@@ -67,7 +67,7 @@ The HelloWorldRequest and HelloWorldResponse classes are defined like this:
        public String text;
     }
 ```
-### Connecting a client
+### 3. Connecting a client
 
 This code connects to a server running on TCP port_number:
 
