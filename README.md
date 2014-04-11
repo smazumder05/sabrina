@@ -26,7 +26,7 @@ A pure Scala version is also in the works.
 
 ### 2. Creating a server
 
-This code starts a server on TCP port xxxxx and UDP port yyyyy:
+This code starts a server on TCP port xxxxx or an UDP port yyyyy:
 
 ```java
     Server server = new Server();
