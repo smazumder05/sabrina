@@ -10,7 +10,14 @@ Sabrina is a Java library that provides a clean and simple API for efficient TCP
 
 JSON Serialization is provided which uses [JsonBeans](http://code.google.com/p/jsonbeans/) to do serialization using JSON.
 
-Sabrina also provides a bounded queueing model for handling a high volume of requests, this is based on the [Disruptor](https://github.com/LMAX-Exchange/disruptor)  
+Sabrina also provides a bounded queueing model for handling a high volume of requests, this is based on the [Disruptor](https://github.com/LMAX-Exchange/disruptor) Disruptor provides 
+
+* Multicast events to consumers, with consumer dependency graph.
+* Pre-allocate memory for events.
+* Optionally lock-free.
+
+See Disruptor documentation for more details.
+
 
 Sabrina is ideal for any client/server application. It is very efficient and is meant for high performance servers. It is being developed to support a mobile application which will be sending requests from various mobile devices.
 
