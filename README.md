@@ -79,3 +79,6 @@ This code connects to a server running on TCP port_number:
     HelloWorldRequest request = new HelloWorldRequest();
     request.text = "Here is the request";
     client.sendTCP(request);
+```   
+ 
+### 4. See [Sabrina's Wiki pages](https://github.com/smazumder05/sabrina/wiki/Using-Sabrina's-Event-Processing-Library) for more documentation
