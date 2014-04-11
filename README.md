@@ -1,4 +1,4 @@
-sabrina
+Sabrina
 =======
 
 A client/server library that supports multiple protocols and provides a simple abstraction for efficiently communicating over TCP or UDP
