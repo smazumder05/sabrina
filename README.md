@@ -74,7 +74,7 @@ This code connects to a server running on TCP port_number:
 ```java
     Client client = new Client();
     client.start();
-    client.connect(5000, "192.168.0.4", port-number);
+    client.connect(5000, "192.168.0.17", port-number);
     
     HelloWorldRequest request = new HelloWorldRequest();
     request.text = "Here is the request";
