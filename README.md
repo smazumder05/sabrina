@@ -19,7 +19,7 @@ A pure Scala version is also in the works.
 
 [Running a server](#running-a-server)
 
-This code starts a server on TCP port 54555 and UDP port 54777:
+This code starts a server on TCP port xxxxx and UDP port yyyyy:
 
 ```java
     Server server = new Server();
@@ -34,11 +34,11 @@ This code adds a listener to handle receiving objects:
 ```java
     server.addListener(new Listener() {
        public void received (Connection connection, Object object) {
-          if (object instanceof SomeRequest) {
-             SomeRequest request = (HelloWorldRequest)object;
+          if (object instanceof HelloWorldRequest) {
+             HelloWorldRequest request = (HelloWorldRequest)object;
              System.out.println(request.text);
     
-             SomeResponse response = new HelloWorldResponse();
+             HelloWorldResponse response = new HelloWorldResponse();
              response.text = "Thanks";
              connection.sendTCP(response);
           }
@@ -69,6 +69,6 @@ This code connects to a server running on TCP port_number:
     client.start();
     client.connect(5000, "192.168.0.4", port-number);
     
-    SomeRequest request = new HelloWorldRequest();
+    HelloWorldRequest request = new HelloWorldRequest();
     request.text = "Here is the request";
     client.sendTCP(request);
