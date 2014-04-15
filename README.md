@@ -81,4 +81,4 @@ This code connects to a server running on TCP port_number:
     client.sendTCP(request);
 ```   
  
-### 4. See [Getting Started](https://github.com/smazumder05/sabrina/wiki/Using-Sabrina's-Event-Processing-Library) for more documentation
+### 4. See [Getting Started](https://github.com/smazumder05/sabrina.wiki.git) for more documentation
